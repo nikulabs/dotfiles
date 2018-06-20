@@ -17,7 +17,6 @@ Plugin 'tpope/vim-dispatch'
 Plugin 'majutsushi/tagbar'
 Plugin 'ericcurtin/CurtineIncSw.vim'
 Plugin 'lyuts/vim-rtags'
-"Plugin 'tpope/tpope-vim-abolish'
 "Launch vim and run :PluginInstall
 
 " All of your Plugins must be added before the following line
