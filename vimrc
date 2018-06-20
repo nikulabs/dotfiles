@@ -11,7 +11,7 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 
 " Other Plugins
-"Plugin 'Valloric/YouCompleteMe'
+Plugin 'vim-scripts/DoxygenToolkit.vim'
 Plugin 'godlygeek/tabular'
 Plugin 'tpope/vim-dispatch'
 Plugin 'majutsushi/tagbar'
@@ -69,7 +69,7 @@ map <F5> <Esc>:setlocal spell! spelllang=en_us<CR>
 
 " mapping for adding beginning and end of function comments
 " Note: this will not work for C-style functions(Functions must have namespace)
-map <F7> :Dox<return>kk=%%jh=%jA<esc>
+map <F7> :Dox<return>
 map <F8> 0%?::.*(by3w/{%A /* End pA() */:w
 
 function! FindMakefile()
@@ -169,5 +169,3 @@ cabbrev shell Shell
 " syn match AcronymNoSpell '\<\(\u\|\d\)\{3,}s\?\>' contains=@NoSpell
 syn match UrlNoSpell '\w\+:\/\/[^[:space:]]\+' contains=@NoSpell
 syn match CapitalWordsNoSpell +\<\w*[A-Z]\K*\>+ contains=@NoSpell
-
-source ~/.vim/doxygen.vim
