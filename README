@@ -4,4 +4,5 @@ Installation:
 Create Symlinks:
   ln -s ~/.vim/vimrc ~/.vimrc
 
-Afterwards launch vim and run ":PluginInstall" to get access to the plugins referenced.
+Plugin Installtion:
+  vim +PluginInstall +qall
