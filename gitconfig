@@ -1,0 +1,23 @@
+[user]
+	name = Ben Nikula
+	email = ben@yospace.com
+[push]
+	default = simple
+[pull]
+	ff = only
+[core]
+	editor = vim
+	excludesFile = ~/.gitignore
+	pager = less -F -X
+	hooksPath = /etc/git-hooks/hooks
+[diff]
+        tool = kdiff3
+[alias]
+        co = checkout
+        ci = commit
+        last = log -1 HEAD
+        st = status
+        br = branch
+        hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+        type = cat-file -t
+        dump = cat-file -p
