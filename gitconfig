@@ -9,7 +9,7 @@
 	editor = vim
 	excludesFile = ~/.gitignore
 	pager = less -F -X
-	hooksPath = /etc/git-hooks/hooks
+	hooksPath = /home/ben/sdks/git-tools/
 [diff]
         tool = kdiff3
 [alias]
